@@ -6,7 +6,7 @@ namespace ReverseString
     {
         static void Main(string[] args)
         {
-            var inputString = "Hello world!";
+            var inputString = "Hello world";
             var chrarr = inputString.ToCharArray();
             
             ReverseString(chrarr);
