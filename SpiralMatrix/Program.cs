@@ -6,7 +6,7 @@ namespace SpiralMatrix
     {
         static void Main(string[] args)
         {
-            var n = 1;
+            var n = 7;
             var response = CreateMatrix(n);
 
             for (var r=0;r<n;r++) {
