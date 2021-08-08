@@ -42,6 +42,16 @@ namespace TwoSumTests
             );
         }
 
+        [Test]
+        public void Test4()
+        {
+            TestRunner(
+                new int[] { 3, 2, 4 },
+                6,
+                new int[] { 1, 2 }
+            );
+        }
+
         public void TestRunner(int[] input, int target, int[] expected)
         {
             // arrange
